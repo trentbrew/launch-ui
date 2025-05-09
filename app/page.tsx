@@ -7,15 +7,16 @@ import FAQ from "../components/sections/faq/default";
 import CTA from "../components/sections/cta/default";
 import Footer from "../components/sections/footer/default";
 import Pricing from "../components/sections/pricing/default";
+import Integrations from "../components/sections/integrations/default";
 
 export default function Home() {
   return (
-    <main className="min-h-screen w-full overflow-hidden bg-background text-foreground">
+    <main className="bg-background text-foreground min-h-screen w-full overflow-hidden">
       <Navbar />
       <Hero />
       <Logos />
+      <Integrations />
       <Items />
-      <Stats />
       <Pricing />
       <FAQ />
       <CTA />
